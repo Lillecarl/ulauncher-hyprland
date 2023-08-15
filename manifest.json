@@ -1,0 +1,19 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Hyprland Windows",
+    "description": "Activates a window in Hyprland",
+    "developer_name": "Ya da",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.05
+    },
+    "preferences": [
+        {
+            "id": "kw",
+            "type": "keyword",
+            "name": "Hyprland Windows",
+            "description": "Activates a window in Hyprland",
+            "default_value": "w"
+        }
+    ]
+}
